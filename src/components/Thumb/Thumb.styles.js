@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
     url(${({ image }) => image }), var(--darkGrey);
     background-size: 100%, cover;
     background-position: center;
-    height: 125px;
+    height: 150px;
     position: relative;
     object-fit: fill;
     border-radius: 20px;
@@ -31,12 +31,14 @@ export const AlignedGrid = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
     h3{
         text-shadow: -1px -1px 0 var(--black), 1px -1px 0 var(--black), -1px 1px 0 var(--black), 1px 1px 0 var(--black);
+        margin: 0px 0px 15px 0px;
     }
 
     p{
         text-shadow: -1px -1px 0 var(--black), 1px -1px 0 var(--black), -1px 1px 0 var(--black), 1px 1px 0 var(--black);
+        margin: 2px 0px 0px 0px;
     }
 `;
